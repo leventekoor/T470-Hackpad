@@ -68,7 +68,8 @@ This was my first hackintosh project, with a lot of learning and even more unexp
   - SMCSuperIO
 - VoodooPS2Controller
 - WhateverGreen
-
+#### Important Notice
+SystemUUID, SystemSerialNumber and MLB are cleared in the config file 
 ## Thanks
 - [OpenCore Vanilla Laptop Guide](https://dortania.github.io/vanilla-laptop-guide/) - I started off with this guide and worked my way through this, very helpful for beginners
 - [RehabMan](https://github.com/RehabMan) - Lot of kexts and DSDT, SSDT patches are his work, big thanks
