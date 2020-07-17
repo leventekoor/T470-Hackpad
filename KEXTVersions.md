@@ -5,6 +5,7 @@
 | ACPIBatteryManager  | 1.90.1  |
 | AppleALC            | 1.4.5   |
 | AppleBacklightFixup | 1.0.2   |
+| CPUFriend           | 1.2.0   |
 | IntelMausiEthernet  | 2.4.0   |
 | Lilu                | 1.4.5   |
 | VirtualSMC          | 1.1.0   |

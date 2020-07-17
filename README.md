@@ -65,6 +65,7 @@ _\*\*Planning on buying a compatible WWAN Card_
 - ACPIBatteryManager
 - AppleALC
 - AppleBacklightFixup
+- CPUFriend
 - IntelMausiEthernet
 - Lilu
 - USBInjectAll
