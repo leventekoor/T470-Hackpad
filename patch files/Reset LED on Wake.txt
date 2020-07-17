@@ -1,0 +1,19 @@
+### PATCH TO STOP POWER/THINKPAD LED FROM "BREATHING" UPON WAKE
+### INSERT INTO DSDT UNDER OWAK
+
+#### BEFORE:
+
+If (LEqual (Arg0, 0x03))
+        {
+            \NVSS (0x00)
+            Store (\_SB.PCI0.LPCB.EC.AC._PSR (), \PWRS)
+
+
+#### AFTER:
+
+If (LEqual (Arg0, 0x03))
+        {
+            \NVSS (0x00)
+            \_SB.PCI0.LPCB.EC.LED (Zero, 0x80)
+            \_SB.PCI0.LPCB.EC.LED (0x0A, 0x80)
+            Store (\_SB.PCI0.LPCB.EC.AC._PSR (), \PWRS)
