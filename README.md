@@ -61,7 +61,6 @@ This was my first hackintosh project, with a lot of learning and even more unexp
 - ACPIBatteryManager
 - AppleALC
 - AppleBacklightFixup
-- CPUFriend
 - IntelMausiEthernet
 - Lilu
 - USBInjectAll
