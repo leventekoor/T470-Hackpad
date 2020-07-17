@@ -1,7 +1,9 @@
 # T470-Hackpad
 ***Tested on:*** *macOS Catalina 10.15.x*\
 ***Apple Services:*** *tested and working*
+
 ![macOS Catalina on the ThinkPad T470](/catalina-t470.png)
+
 ## Introduction
 This was my first hackintosh project, with a lot of learning and even more unexpected errors. I have yet to find a completed T470 setup for Catalina using OpenCore, so I decided to make one for myself and share with the community. So here we are... :) As I said being a first time hackintosher I ran into a lot of problems and did a LOT of research to get my system even to boot, then slowly worked myself towards a stable system. I hope this helps anyone who has a similar T470 setup or have a shared specific hardware that they hav problems with. I try to update this repo to the best of my ability.
 ## Tips & Notes
